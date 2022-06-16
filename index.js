@@ -51,9 +51,9 @@ By : ${chalk.red('ZoraGanteng')} - ${chalk.blue('ZORA GANTENG NIH BOS')}
             const trophy = data.User.SkillRating;
             const crown = data.User.Crowns;
             
-            console.log(chalk.green(`\r[ ${moment().format('HH:mm:ss')} ] Nickname : ${username} | Country : ${country} | ${chalk.blue(`Trophy : ${trophy}`)} | ${chalk.blue(`Crown : ${crown}`)}`));
+            console.log(chalk.magenta(`\r[ ${moment().format('HH:mm:ss')} ] Nickname : ${username} | Country : ${country} | ${chalk.red(`Trophy : ${trophy}`)} | ${chalk.red(`Crown : ${crown}`)}`));
             
-        } else if (result == 'BANNED') {
+        } else if (result == 'AKUN STUMBLE ANDA DI BANNED') {
             console.log(chalk.red(`\r[ ${moment().format('HH:mm:ss')} ] Banned !`));
             break;
         }
