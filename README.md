@@ -1,3 +1,3 @@
 # StumbleGuysBot
 Push Rank Cheat
-#Cara Jalanin
+# Cara Jalanin
