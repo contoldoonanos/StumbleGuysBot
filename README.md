@@ -11,11 +11,19 @@ Push Rank Cheat
 5.Go to request tab and copy authorization value !
 # How To Use In The Termux?
 1.pkg update && pkg upgrade
+
 2.apt update
+
 3.pkg install git
+
 4.git clone
+
 5.cd
+
 6.pkg install nodejs-lts
+
 7.pkg update
+
 8.npm i
+
 9.node index
