@@ -16,9 +16,9 @@ Push Rank Cheat
 
 3.pkg install git
 
-4.git clone
+4.git clone https://github.com/contoldoonanos/StumbleGuysBot
 
-5.cd
+5.cd StumbleGuysBot
 
 6.pkg install nodejs-lts
 
