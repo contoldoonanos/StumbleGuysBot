@@ -32,7 +32,7 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 By : ${chalk.red('ZoraGanteng')} - ${chalk.blue('ZORA GANTENG NIH BOS')}
 `);
 
-    const auth = rs.question('[+] Enter your auth token : ');
+    const auth = rs.question('[+] Paste Token Kamu Disini : ');
     console.log('');
 
     while (true) {
