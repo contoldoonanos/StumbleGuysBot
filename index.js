@@ -29,7 +29,7 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 ███████    ██    ██    ██ ██ ████ ██ ██████  ██      █████          
      ██    ██    ██    ██ ██  ██  ██ ██   ██ ██      ██            
 ███████    ██     ██████  ██      ██ ██████  ███████ ███████    
-By : ${chalk.red('@dkmpostor')} - ${chalk.blue('https://dkmpostor.herokuapp.com/')}
+By : ${chalk.red('ZoraGanteng')} - ${chalk.blue('ZORA GANTENG NIH BOS')}
 `);
 
     const auth = rs.question('[+] Enter your auth token : ');
