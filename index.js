@@ -5,7 +5,7 @@ const rs = require('readline-sync');
 
 const GoStumble = (auth) => new Promise((resolve, reject) => {
 
-    fetch('http://kitkabackend.eastus.cloudapp.azure.com:5010/round/finishv2/2', {
+    fetch('http://kitkabackend.eastus.cloudapp.azure.com:5010/round/finishv2/3', {
         method: 'GET',
         headers: {
             'authorization': auth
@@ -40,7 +40,7 @@ By : ${chalk.red('ZoraGanteng')} - ${chalk.blue('ZORA GANTENG NIH BOS')}
         const result = await GoStumble(auth);
         if (!result) {
 
-            console.log(chalk.red(`\r[ ${moment().format('HH:mm:ss')} ] Wrong cookie or Expired cookie !`));
+            console.log(chalk.red(`\r[ ${moment().format('HH:mm:ss')} ] Anda Harus Menang Terlebih Dahulu !`));
             break;
 
         } else if (result.includes('User')) {
